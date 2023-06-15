@@ -32,7 +32,7 @@ Los circuitos RC son  circuitos computos por Resistencias (R) y un Capacitos (C)
 
 ##### Formulas
 
-*** Circuito RC en serie:***
+** Circuito RC en serie:**
 
 Resistencias total: 
 R_total = R + (1/Cs)
