@@ -30,9 +30,9 @@ Los circuitos RC son  circuitos computos por Resistencias (R) y un Capacitos (C)
 **En un circuito RC en paralelo**:  el resistor y el capacitor se conectan de forma paralela a la fuente de alimentación. Esto significa que la corriente se divide entre el resistor y el capacitor. El resistor proporciona una ruta para la corriente constante, mientras que el capacitor se carga y descarga independientemente a través de su propia trayectoria.
 
 
-###### Formulas
+##### Formulas
 
-Circuito RC en serie:
+*** Circuito RC en serie:***
 
 Resistencias total: 
 R_total = R + (1/Cs)
