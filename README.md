@@ -18,7 +18,7 @@ Fuente de alimentación: Suministra la energía eléctrica al circuito. Puede se
 
 **Interruptores:** Permiten abrir o cerrar el flujo de corriente en un circuito. Pueden ser interruptores manuales o electrónicos controlados.
 
- ### Cicuitos RC RL Y RLC
+ ## Cicuitos RC RL Y RLC
 
  ### Circuitos RC
 
@@ -41,8 +41,9 @@ En un circuito RC en serie, la resistencia total (R_total) es simplemente la sum
 Corriente total: 
 I(t) = (V / R) * (1 - e^(-t/τ))
  Donde V es el voltaje aplicado, R es la resistencia y τ es la constante de tiempo. El tiempo (t) es el tiempo transcurrido desde el inicio de la carga.
+ 
 
-#### Circuitos RL
+### Circuitos RL
 
 Un circuito RL es un circuito eléctrico que contiene una combinación de una bobina (L) y una resistencia (R). En un circuito RL, la bobina (inductor) almacena energía en forma de campo magnético cuando fluye corriente a través de ella. 
 
@@ -87,7 +88,6 @@ Z es la impedancia en ohmios, R es la resistencia en ohmios, j es la unidad imag
 Corriente total (I_total):
 
 I_total = V / Z
-
 
 Corriente en la resistencia (I_R):
 
