@@ -1,4 +1,5 @@
 # Proyecto Final
+
 ## Circuitos
 
 Un circuito es una colección de componentes reales, fuentes de poder y fuentes de señales, todas conectadas de modo que la corriente pueda fluir en un círculo completo.La corriente eléctrica es un movimiento de electrones, por lo tanto, cualquier circuito debe permitir el paso de los electrones por los elementos que lo componen.
@@ -19,7 +20,7 @@ Fuente de alimentación: Suministra la energía eléctrica al circuito. Puede se
 
  ### Cicuitos RC RL Y RLC
 
- #### Circuitos RC
+ ### Circuitos RC
 
 Los circuitos RC son  circuitos computos por Resistencias (R) y un Capacitos (C), Conectados en serie o en paralelo. Estos circuitos almacenan voltajes para dejarlos en milifacciones en segundos.
 
@@ -30,7 +31,7 @@ Los circuitos RC son  circuitos computos por Resistencias (R) y un Capacitos (C)
 **En un circuito RC en paralelo**:  el resistor y el capacitor se conectan de forma paralela a la fuente de alimentación. Esto significa que la corriente se divide entre el resistor y el capacitor. El resistor proporciona una ruta para la corriente constante, mientras que el capacitor se carga y descarga independientemente a través de su propia trayectoria.
 
 
-##### Formulas
+**Formulas**
 
 **Circuito RC en serie**
 Resistencias total: 
@@ -54,19 +55,19 @@ En un circuito RL en serie, el inductor (L) y la resistencia (R) se conectan uno
 En un circuito RL en paralelo, el inductor (L) y la resistencia (R) se conectan en paralelo a la fuente de alimentación. En esta configuración, la tensión es la misma en ambos elementos, pero la corriente se divide entre el inductor y la resistencia. El inductor proporciona una ruta para la corriente alterna, mientras que la resistencia limita el flujo de corriente y disipa energía. En un circuito RL en paralelo, la inductancia afecta la impedancia total del circuito y la fase de la corriente en relación con la tensión aplicada.
 
 
-##### Formulas
+**Formulas**
 
 **Formulas circuitos RL en serie**
 Constante de tiempo (τ):
 τ = L / R
 
 Corriente máxima (I_max):
-I_max = V / R
+ I_max = V / R 
 
 V es el voltaje aplicado en voltios, R es la resistencia en ohmios.
 
 Corriente en un tiempo dado (I):
-**I(t) = I_max * (1 - e^(-t/τ))**
+I(t) = I_max * (1 - e^(-t/τ))
 
 I_max es la corriente máxima, t es el tiempo en segundos, τ es la constante de tiempo calculada anteriormente.
 
