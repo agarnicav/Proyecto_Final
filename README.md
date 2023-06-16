@@ -34,11 +34,14 @@ Los circuitos RC son  circuitos computos por Resistencias (R) y un Capacitos (C)
 **Formulas**
 
 **Circuito RC en serie**
+
 Resistencias total: 
+
 R_total = R + (1/Cs)
 En un circuito RC en serie, la resistencia total (R_total) es simplemente la suma de la resistencia (R) y la resistencia del capacitor (1/Cs), expresada como la 
 
 Corriente total: 
+
 I(t) = (V / R) * (1 - e^(-t/τ))
  Donde V es el voltaje aplicado, R es la resistencia y τ es la constante de tiempo. El tiempo (t) es el tiempo transcurrido desde el inicio de la carga.
  
@@ -59,15 +62,19 @@ En un circuito RL en paralelo, el inductor (L) y la resistencia (R) se conectan 
 **Formulas**
 
 **Formulas circuitos RL en serie**
+
 Constante de tiempo (τ):
+
 τ = L / R
 
 Corriente máxima (I_max):
+
  I_max = V / R 
 
 V es el voltaje aplicado en voltios, R es la resistencia en ohmios.
 
 Corriente en un tiempo dado (I):
+
 I(t) = I_max * (1 - e^(-t/τ))
 
 I_max es la corriente máxima, t es el tiempo en segundos, τ es la constante de tiempo calculada anteriormente.
@@ -77,11 +84,11 @@ I_max es la corriente máxima, t es el tiempo en segundos, τ es la constante de
 En un circuito RL en paralelo, se utiliza la impedancia en lugar de la resistencia. Aquí tienes algunas fórmulas relevantes para hallar datos en un circuito RL en paralelo:
 
 Impedancia (Z):
+
 La impedancia combina tanto la resistencia como la reactancia inductiva y representa la oposición total al flujo de corriente en el circuito RL en paralelo.
 La impedancia en un circuito RL en paralelo se calcula utilizando la fórmula:
 
-**1/Z = 1/R + 1/jωL**
-
+1/Z = 1/R + 1/jωL
 Z es la impedancia en ohmios, R es la resistencia en ohmios, j es la unidad imaginaria (√(-1)), ω es la frecuencia angular en radianes por segundo, L es la inductancia en henrios.
 
 
