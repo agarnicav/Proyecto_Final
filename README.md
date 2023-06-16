@@ -9,13 +9,13 @@ Un circuito es una colección de componentes reales, fuentes de poder y fuentes 
 
 Fuente de alimentación: Suministra la energía eléctrica al circuito. Puede ser una batería, un generador o una fuente de alimentación de corriente alterna.
 
-Resistencia: Restringe el flujo de corriente en el circuito. Las resistencias se utilizan para controlar la cantidad de corriente que fluye en un circuito y para limitar la caída de voltaje. Se miden en Ohms 
+**Resistencia**: Restringe el flujo de corriente en el circuito. Las resistencias se utilizan para controlar la cantidad de corriente que fluye en un circuito y para limitar la caída de voltaje. Se miden en Ohms 
 
-Capacitor: Almacena y libera carga eléctrica. Está compuesto por dos placas conductoras separadas por un material dieléctrico. Los capacitores se utilizan para almacenar energía, filtrar señales, acoplar circuitos, entre otros.
+**Capacitor:** Almacena y libera carga eléctrica. Está compuesto por dos placas conductoras separadas por un material dieléctrico. Los capacitores se utilizan para almacenar energía, filtrar señales, acoplar circuitos, entre otros.
 
-Inductor: Almacena energía en forma de campo magnético. Está formado por una bobina de alambre conductor. Los inductores se utilizan para almacenar energía, filtrar señales y controlar cambios en la corriente.
+**Inductor:** Almacena energía en forma de campo magnético. Está formado por una bobina de alambre conductor. Los inductores se utilizan para almacenar energía, filtrar señales y controlar cambios en la corriente.
 
-Interruptores: Permiten abrir o cerrar el flujo de corriente en un circuito. Pueden ser interruptores manuales o electrónicos controlados.
+**Interruptores:** Permiten abrir o cerrar el flujo de corriente en un circuito. Pueden ser interruptores manuales o electrónicos controlados.
 
  ### Cicuitos RC RL Y RLC
 
@@ -23,7 +23,7 @@ Interruptores: Permiten abrir o cerrar el flujo de corriente en un circuito. Pue
 
 Los circuitos RC son  circuitos computos por Resistencias (R) y un Capacitos (C), Conectados en serie o en paralelo. Estos circuitos almacenan voltajes para dejarlos en milifacciones en segundos.
 
-##### Circuitos Rc en Serie y paralero 
+ **Circuitos RC en Serie y paralero**
 
 **En un circuito RC en serie**: el resistor y el capacitor se conectan uno tras otro, compartiendo la misma corriente. Las rresistencias limita el flujo de corriente en el circuito, mientras que el capacitor almacena y libera carga eléctrica a medida que la corriente fluye a través de él. El capacitor se carga y descarga a través del resistor.
 
@@ -41,7 +41,7 @@ Corriente total:
 I(t) = (V / R) * (1 - e^(-t/τ))
  Donde V es el voltaje aplicado, R es la resistencia y τ es la constante de tiempo. El tiempo (t) es el tiempo transcurrido desde el inicio de la carga.
 
-#### Circuitos Rl
+#### Circuitos RL
 
 Un circuito RL es un circuito eléctrico que contiene una combinación de una bobina (L) y una resistencia (R). En un circuito RL, la bobina (inductor) almacena energía en forma de campo magnético cuando fluye corriente a través de ella. 
 
@@ -50,13 +50,13 @@ Cuando se aplica un voltaje al circuito RL, la corriente no aumenta instantánea
 **Circuito RL en serie** :
 En un circuito RL en serie, el inductor (L) y la resistencia (R) se conectan uno tras otro, de modo que la corriente fluye a través de ambos componentes en serie. En esta configuración, la corriente es la misma en todos los elementos del circuito, pero la tensión se divide entre el inductor y la resistencia. La inductancia afecta el comportamiento de la corriente y la respuesta transitoria del circuito. La resistencia, por su parte, limita el flujo de corriente y disipa energía en forma de calor.
 
-Circuito RL en paralelo:
+**Circuito RL en paralelo :**
 En un circuito RL en paralelo, el inductor (L) y la resistencia (R) se conectan en paralelo a la fuente de alimentación. En esta configuración, la tensión es la misma en ambos elementos, pero la corriente se divide entre el inductor y la resistencia. El inductor proporciona una ruta para la corriente alterna, mientras que la resistencia limita el flujo de corriente y disipa energía. En un circuito RL en paralelo, la inductancia afecta la impedancia total del circuito y la fase de la corriente en relación con la tensión aplicada.
 
 
 ##### Formulas
 
-Formulas circuitos RL en serie 
+**Formulas circuitos RL en serie**
 Constante de tiempo (τ):
 τ = L / R
 
@@ -70,7 +70,7 @@ Corriente en un tiempo dado (I):
 
 I_max es la corriente máxima, t es el tiempo en segundos, τ es la constante de tiempo calculada anteriormente.
 
-Formulas circuitos RL paralelo
+**Formulas circuitos RL paralelo**
 
 En un circuito RL en paralelo, se utiliza la impedancia en lugar de la resistencia. Aquí tienes algunas fórmulas relevantes para hallar datos en un circuito RL en paralelo:
 
