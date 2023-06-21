@@ -1,6 +1,6 @@
 
-<span style="color💜">## Proyecto Final</span>
-
+# Proyecto Final
+<span style="color💜"></span>
 ## Circuitos
 
 Un circuito es una colección de componentes reales, fuentes de poder y fuentes de señales, todas conectadas de modo que la corriente pueda fluir en un círculo completo.La corriente eléctrica es un movimiento de electrones, por lo tanto, cualquier circuito debe permitir el paso de los electrones por los elementos que lo componen.
