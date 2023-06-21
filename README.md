@@ -1,5 +1,5 @@
 
-<span style="color:purple">## Proyecto Final</span>
+<span style="color💜">## Proyecto Final</span>
 
 ## Circuitos
 
