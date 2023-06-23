@@ -20,7 +20,7 @@ Fuente de alimentación: Suministra la energía eléctrica al circuito. Puede se
 
  ## Cicuitos RC RL Y RLC
 
- ### Circuitos RC
+ ## Circuitos RC
 
 Los circuitos RC son  circuitos computos por Resistencias (R) y un Capacitos (C), Conectados en serie o en paralelo. Estos circuitos almacenan voltajes para dejarlos en milifacciones en segundos.
 
@@ -63,7 +63,7 @@ I(t) = (V / R) * (1 - e^(-t/τ))
  Donde V es el voltaje aplicado, R es la resistencia y τ es la constante de tiempo. El tiempo (t) es el tiempo transcurrido desde el inicio de la carga.
  
 
-### Circuitos RL
+## Circuitos RL
 
 Un circuito RL es un circuito eléctrico que contiene una combinación de una bobina (L) y una resistencia (R). En un circuito RL, la bobina (inductor) almacena energía en forma de campo magnético cuando fluye corriente a través de ella. 
 
