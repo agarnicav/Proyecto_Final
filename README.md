@@ -10,7 +10,7 @@ Un circuito es una colección de componentes reales, fuentes de poder y fuentes 
 
 Fuente de alimentación: Suministra la energía eléctrica al circuito. Puede ser una batería, un generador o una fuente de alimentación de corriente alterna.
 
- <purple > **Resistencia**: Restringe el flujo de corriente en el circuito. Las resistencias se utilizan para controlar la cantidad de corriente que fluye en un circuito y para limitar la caída de voltaje. Se miden en Ohms 
+**Resistencia**: Restringe el flujo de corriente en el circuito. Las resistencias se utilizan para controlar la cantidad de corriente que fluye en un circuito y para limitar la caída de voltaje. Se miden en Ohms 
 
 **Capacitor:** Almacena y libera carga eléctrica. Está compuesto por dos placas conductoras separadas por un material dieléctrico. Los capacitores se utilizan para almacenar energía, filtrar señales, acoplar circuitos, entre otros.
 
@@ -35,7 +35,24 @@ Los circuitos RC son  circuitos computos por Resistencias (R) y un Capacitos (C)
 
 **Circuito RC en serie**
 
-Resistencias total: 
+**Impedancia**
+Para calcular la impedancia en un circuito RC:
+
+Impedancia del resistor (R): Z_R = R
+Impedancia del capacitor (C): Z_C = 1 / (2 * π * f * C)
+Impedancia total del circuito (Z_eq): Z_eq = sqrt(Z_R^2 + Z_C^2)
+Para calcular la impedancia en un circuito RL:
+
+
+R es la resistencia en ohmios.
+C es la capacitancia en microfaradios.
+L es la inductancia en henrios.
+f es la frecuencia en hercios.
+ω es la frecuencia angular en radianes por segundo (ω = 2 * π * f).
+j es la unidad imaginaria (√(-1)).
+
+
+**Resistencias total:**
 
 R_total = R + (1/Cs)
 En un circuito RC en serie, la resistencia total (R_total) es simplemente la suma de la resistencia (R) y la resistencia del capacitor (1/Cs), expresada como la 
@@ -61,32 +78,26 @@ En un circuito RL en paralelo, el inductor (L) y la resistencia (R) se conectan 
 
 **Formulas**
 
-**Formulas circuitos RL en serie**
 
-Constante de tiempo (τ):
+Para calcular la impedancia en un circuito RL:
+**Impedancia (Z):**
 
-τ = L / R
+La impedancia combina tanto la resistencia como la reactancia inductiva y representa la oposición total al flujo de corriente en el circuito RL.
 
-Corriente máxima (I_max):
+Impedancia del resistor (R): Z_R = R
+Impedancia del inductor (L): Z_L = j * ω * L
+Impedancia total del circuito (Z_eq): Z_eq = sqrt(Z_R^2 + Z_L^2)
 
- I_max = V / R 
+Z es la impedancia total del circuito.
+R es la resistencia en ohmios.
+XL es la reactancia inductiva en ohmios, que se calcula multiplicando la frecuencia angular (ω) por la inductancia (L):
+XL = ωL
 
-V es el voltaje aplicado en voltios, R es la resistencia en ohmios.
-
-Corriente en un tiempo dado (I):
-
-I(t) = I_max * (1 - e^(-t/τ))
-
-I_max es la corriente máxima, t es el tiempo en segundos, τ es la constante de tiempo calculada anteriormente.
 
 **Formulas circuitos RL paralelo**
 
 En un circuito RL en paralelo, se utiliza la impedancia en lugar de la resistencia. Aquí tienes algunas fórmulas relevantes para hallar datos en un circuito RL en paralelo:
 
-Impedancia (Z):
-
-La impedancia combina tanto la resistencia como la reactancia inductiva y representa la oposición total al flujo de corriente en el circuito RL en paralelo.
-La impedancia en un circuito RL en paralelo se calcula utilizando la fórmula:
 
 1/Z = 1/R + 1/jωL
 Z es la impedancia en ohmios, R es la resistencia en ohmios, j es la unidad imaginaria (√(-1)), ω es la frecuencia angular en radianes por segundo, L es la inductancia en henrios.
@@ -99,4 +110,44 @@ I_total = V / Z
 Corriente en la resistencia (I_R):
 
 I_R = V / R
+
+## Circuito RLC
+Los circuitos RLC son circuitos eléctricos que contienen una combinación de elementos resistivos (R), inductivos (L) y capacitivos (C). Estos circuitos son de particular interés debido a su comportamiento resonante y su capacidad para filtrar frecuencias específicas. A continuación, se describen brevemente los tres tipos de circuitos RLC más comunes:
+
+Circuito RLC en serie:
+
+En un circuito RLC en serie, los componentes (resistencia, inductancia y capacitancia) están conectados en serie uno tras otro.
+La corriente es la misma en todos los componentes del circuito.
+La impedancia total del circuito RLC en serie se calcula sumando las impedancias de cada componente en serie: Z_eq = R + jωL + 1/(jωC), donde ω es la frecuencia angular en radianes por segundo.
+Circuito RLC en paralelo:
+
+En un circuito RLC en paralelo, los componentes (resistencia, inductancia y capacitancia) están conectados en paralelo uno junto al otro.
+El voltaje es el mismo en todos los componentes del circuito.
+La impedancia total del circuito RLC en paralelo se calcula sumando las admitancias de cada componente en paralelo y luego tomando el inverso: 1/Z_eq = 1/R + 1/(jωL) + jωC.
+
+
+Las fórmulas para los circuitos RLC se utilizan para calcular la impedancia total del circuito, la corriente, la tensión y la potencia en función de los valores de resistencia (R), inductancia (L) y capacitancia (C) presentes en el circuito. A continuación se presentan las principales fórmulas utilizadas:
+
+**Impedancia** 
+Impedancia total (Z_eq) del circuito RLC en función de R, L y C:
+(Z_eq): Z_eq = sqrt(Z_R^2 + (Z_L - Z_C)^2))
+
+Para calcular la impedancia en un circuito RLC:
+
+Impedancia del resistor (R): Z_R = R
+Impedancia del inductor (L): Z_L = j * ω * L
+Impedancia del capacitor (C): Z_C = 1 / (j * ω * C)
+
+donde ω es la frecuencia angular en radianes por segundo, ω = 2 * π * f, y f es la frecuencia en hercios.
+
+Corriente en el circuito (I) en función de la tensión de la fuente (V) y la impedancia (Z_eq):
+I = V / Z_eq
+
+Tensión en el circuito (V_R, V_L, V_C) en función de la corriente (I) y la impedancia (Z_eq):
+
+Tensión en el resistor (V_R): V_R = I * R
+Tensión en el inductor (V_L): V_L = I * (ω * L)
+Tensión en el capacitor (V_C): V_C = I * (1 / (ω * C))
+Potencia en el circuito (P) en función de la corriente (I) y la tensión en el resistor (V_R):
+P = V_R * I = (I * R) * I = I^2 * R
 
