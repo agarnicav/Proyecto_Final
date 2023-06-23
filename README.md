@@ -1,13 +1,16 @@
+<center>
 
 # Proyecto Final
-##   Grupo Attack On Coding
+## Grupo Attack On Coding
 
 ## Integrantes 
 ### Lisa Maria Forjan Despaigne
-### Ana Maria 	Garnica Vargas
-### Dilan Mateo	Torres Muñoz
-## Logo 
-[![Atack-on-Codding-edited.jpg](https://i.postimg.cc/c47bzvy0/Atack-on-Codding-edited.jpg)](https://postimg.cc/jL5cwdSF)
+### Ana Maria Garnica Vargas
+### Dilan Mateo Torres Muñoz
+
+![Logo](https://i.postimg.cc/c47bzvy0/Atack-on-Codding-edited.jpg)
+
+</center>
 
 
 ## Circuitos
