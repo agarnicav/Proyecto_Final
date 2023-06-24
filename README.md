@@ -175,20 +175,25 @@ P = V_R * I = (I * R) * I = I^2 * R
    
 ![Bloque1](https://github.com/agarnicav/Proyecto_Final/assets/124607325/804010f7-1fc7-4a2b-a62d-c0ebd8b7679c)
 
-Dependiendo de la opción seleccionada, se llaman a las funciones correspondientes para recopilar los datos del circuito, convertirlos en fasores, calcular la impedancia equivalente y aplicar la ley de Ohm para obtener la corriente y las tensiones en el circuito.
+4. Dependiendo de la opción seleccionada, se llaman a las funciones correspondientes para recopilar los datos del circuito, convertirlos en fasores, calcular la impedancia equivalente y aplicar la ley de Ohm para obtener la corriente y las tensiones en el circuito.
 
 ![Bloque2](https://github.com/agarnicav/Proyecto_Final/assets/124607325/d3131c47-f509-4932-bb48-4ff034dbd811)
 
-En el caso 1, se muestra el circuito RC y se solicitan los datos de voltaje (V1), resistencia (R1) y condensador (C1) al usuario, en un diccionario llamado datosCircuito  se alamcenan los datos y se realizan cálculos de fasores, impedancia y aplicando la ley de Ohm para obtener las corrientes y tensiones en el circuito. Finalmente, se imprimen los resultados.
 
-En el caso 2, se realiza el procedimiento para el circuito RL. Se muestra el circuito RL, se solicitan los datos de voltaje (V1), resistencia (R1) e inductor (L1) y se realizan los cálculos correspondientes para obtener las corrientes y tensiones en el circuito.
+ 
+ **Caso 1:** se muestra el circuito RC y se solicitan los datos de voltaje (V1), resistencia (R1) y condensador (C1) al usuario, en un diccionario llamado datosCircuito  se alamcenan los datos y se realizan cálculos de fasores, impedancia y aplicando la ley de Ohm para obtener las corrientes y tensiones en el circuito. Finalmente, se imprimen los resultados.
+
+**Caso 2:** se realiza el procedimiento para el circuito RL. Se muestra el circuito RL, se solicitan los datos de voltaje (V1), resistencia (R1) e inductor (L1) y se realizan los cálculos correspondientes para obtener las corrientes y tensiones en el circuito.
+
+
+
 
 ![Bloque 3](https://github.com/agarnicav/Proyecto_Final/assets/124607325/e61d98fd-42e0-4625-ba33-c15c4e3619db)
 
-En el caso 3, se realiza un procedimiento para el circuito RLC. Se muestra el circuito RLC, se solicitan los datos de voltaje (V1), resistencia (R1), inductor (L1) y condensador (C1). Luego, se realizan los cálculos correspondientes para obtener las corrientes y tensiones en el circuito.
+**Caso 3:**  se realiza un procedimiento para el circuito RLC. Se muestra el circuito RLC, se solicitan los datos de voltaje (V1), resistencia (R1), inductor (L1) y condensador (C1). Luego, se realizan los cálculos correspondientes para obtener las corrientes y tensiones en el circuito.
 
-En el caso 4, se muestra un mensaje de agradecimiento y el programa finaliza.
+**Caso 4:**  se muestra un mensaje de agradecimiento y el programa finaliza.
 
 
 
-Finalmente, se imprimen los resultados en formato de cadena.
+5. Finalmente, se imprimen los resultados en formato de cadena.
