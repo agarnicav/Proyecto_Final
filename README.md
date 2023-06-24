@@ -169,7 +169,10 @@ P = V_R * I = (I * R) * I = I^2 * R
 ![Convertir fasores](https://github.com/agarnicav/Proyecto_Final/assets/124607325/b70c2928-9e8c-42c1-8363-f9723f5a1f3c)
 
 - Función impedanciaEquivalente() que toma los fasores y una bandera como entrada y calcula la impedancia equivalente del circuito. Dependiendo del valor de la bandera, realiza diferentes cálculos y devuelve una lista con la magnitud y el ángulo de la impedancia equivalente.
+![Impedanciaequivalente](https://github.com/agarnicav/Proyecto_Final/assets/124607325/5d5e3b07-11c7-415a-9788-1864ed58d860)
 
 Función leyDeOhm() que toma la impedancia, los fasores y una bandera como entrada. Utiliza la ley de Ohm para calcular la corriente y las tensiones en el circuito. Devuelve un diccionario con los resultados.
+![Ley de ohm](https://github.com/agarnicav/Proyecto_Final/assets/124607325/3dcacc2d-ab20-4062-a180-06ab1c231b0e)
+
 
 
