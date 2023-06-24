@@ -139,3 +139,37 @@ Tensión en el capacitor (V_C): V_C = I * (1 / (ω * C))
 Potencia en el circuito (P) en función de la corriente (I) y la tensión en el resistor (V_R):
 P = V_R * I = (I * R) * I = I^2 * R
 
+
+
+
+# Procedimiento del Proyecto 
+
+1. Se crean y presentan circuitos de muestra para que los usuarios puedan comprender los tipos de circuitos que el programa maneja. Estos circuitos ilustran visualmente la configuración y la conexión de los componentes en cada tipo de circuito.
+   
+![Circuitos 1](https://github.com/agarnicav/Proyecto_Final/assets/124607325/5d6d9cb0-a1cb-457c-98ed-87256eaeebb2)
+
+![Circuitos 2](https://github.com/agarnicav/Proyecto_Final/assets/124607325/9c192147-f29f-4e5e-8124-d33a9895220a)
+
+
+2. Se definene funciones para poder alamcenar, procesar y hallar los valores del circuito elegido.
+
+- Función datosDeTension() la cual solicita al usuario los datos de voltaje de la fuente de corriente alterna (AC) y devuelve un diccionario con esos datos.
+  ![Datostension](https://github.com/agarnicav/Proyecto_Final/assets/124607325/db72c783-5017-4efc-874d-01039c566b6f)
+
+- Función datosDeResistencia() que solicita al usuario la resistencia en ohmios y devuelve un diccionario con ese dato.
+![Datosresistencias](https://github.com/agarnicav/Proyecto_Final/assets/124607325/8ed72228-8caa-4e05-905c-b6bf01fdb793)
+
+- Función datosDeCondensador() que solicita al usuario la capacitancia en microfaradios y devuelve un diccionario con ese dato.
+![DatosCondensador](https://github.com/agarnicav/Proyecto_Final/assets/124607325/8a22db63-7b80-4edd-a1b1-f0a6037c0881)
+
+- Función datosDeInductor() que solicita al usuario la inductancia en henrios y devuelve un diccionario con ese dato.
+![Datos inductor](https://github.com/agarnicav/Proyecto_Final/assets/124607325/aa91550f-6b6e-4615-bf7a-464e23306698)
+
+- Función convertirFasores() que toma un diccionario de datos del circuito y convierte los valores de voltaje, resistencia, capacitancia e inductancia en fasores (representación compleja). Devuelve un diccionario con los fasores correspondientes.
+![Convertir fasores](https://github.com/agarnicav/Proyecto_Final/assets/124607325/b70c2928-9e8c-42c1-8363-f9723f5a1f3c)
+
+- Función impedanciaEquivalente() que toma los fasores y una bandera como entrada y calcula la impedancia equivalente del circuito. Dependiendo del valor de la bandera, realiza diferentes cálculos y devuelve una lista con la magnitud y el ángulo de la impedancia equivalente.
+
+Función leyDeOhm() que toma la impedancia, los fasores y una bandera como entrada. Utiliza la ley de Ohm para calcular la corriente y las tensiones en el circuito. Devuelve un diccionario con los resultados.
+
+
