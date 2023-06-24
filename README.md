@@ -176,7 +176,7 @@ P = V_R * I = (I * R) * I = I^2 * R
 ![Bloque1](https://github.com/agarnicav/Proyecto_Final/assets/124607325/804010f7-1fc7-4a2b-a62d-c0ebd8b7679c)
 
 4. Dependiendo de la opción seleccionada, se llaman a las funciones correspondientes para recopilar los datos del circuito, convertirlos en fasores, calcular la impedancia equivalente y aplicar la ley de Ohm para obtener la corriente y las tensiones en el circuito.
-
+ 
 ![Bloque2](https://github.com/agarnicav/Proyecto_Final/assets/124607325/d3131c47-f509-4932-bb48-4ff034dbd811)
 
 
