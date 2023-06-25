@@ -140,11 +140,10 @@ P = V_R * I = (I * R) * I = I^2 * R
 
 # Procedimiento del Proyecto 
 
-1. Se crean y presentan circuitos de muestra para que los usuarios puedan comprender los tipos de circuitos que el programa maneja. Estos circuitos ilustran visualmente la configuración y la conexión de los componentes en cada tipo de circuito.
+1. Se utiliza la biblioteca colorama para imprimir texto en colores en la consola, se crean y presentan tres circuitos de muestra (RC,RL, RLC), para que los usuarios puedan comprender los tipos de circuitos que el programa maneja. Estos circuitos ilustran visualmente la configuración y la conexión de los componentes en cada tipo de circuito.
    
-![Circuitos 1](https://github.com/agarnicav/Proyecto_Final/assets/124607325/5d6d9cb0-a1cb-457c-98ed-87256eaeebb2)
-
-![Circuitos 2](https://github.com/agarnicav/Proyecto_Final/assets/124607325/9c192147-f29f-4e5e-8124-d33a9895220a)
+![Circuitos 2](https://github.com/agarnicav/Proyecto_Final/assets/124607325/a52e1091-099e-4eec-9ae3-0c4bb3bf90fc)
+![Circuitos 1](https://github.com/agarnicav/Proyecto_Final/assets/124607325/cedd4dbf-ea00-4460-88e2-9b432d89d9db)
 
 
 2. Se definene funciones para poder alamcenar, procesar y hallar los valores del circuito elegido.
