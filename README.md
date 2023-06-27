@@ -22,8 +22,10 @@ Un circuito es un conjunto de componentes eléctricos que permite el flujo de co
 - **Inductor:** Almacena energía en forma de campo magnético. Está formado por una bobina de alambre conductor. Los inductores se utilizan para almacenar energía, filtrar señales y controlar cambios en la corriente.
 - **Interruptores:** Permiten abrir o cerrar el flujo de corriente en un circuito. Pueden ser interruptores manuales o electrónicos controlados.
 
- ## Cicuitos RC RL Y RLC
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+![Circuitos rc rl rlc](https://github.com/agarnicav/Proyecto_Final/assets/124607325/ff8d718a-7b8c-4cd3-ba61-642204c22504)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
  ## Circuitos RC
 Los circuitos RC son  circuitos computos por Resistencias (R) y un Capacitos (C), Conectados en serie o en paralelo. Estos circuitos almacenan voltajes para dejarlos en milifacciones en segundos.
 
