@@ -13,10 +13,8 @@
 - Ana Maria Garnica Vargas
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 ![Circuitos](https://github.com/agarnicav/Proyecto_Final/assets/124607325/b6632485-482d-4392-bf7a-a5cbaa43b87a)
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Un circuito es un conjunto de componentes eléctricos que permite el flujo de corriente eléctrica a través de una trayectoria cerrada. La corriente eléctrica consiste en el movimiento de electrones, por lo tanto, cualquier circuito debe permitir el paso de los electrones a través de los elementos que lo componen.
 
