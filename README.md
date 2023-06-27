@@ -188,6 +188,27 @@ Se crean y representan los diagramas de los circuitos RC,RL,RCL, se toman como a
 ![circuitos solucionados 3](https://github.com/agarnicav/Proyecto_Final/assets/124607325/9e21a428-d1ff-4ba9-b5d7-9afbb4d42c77)
 
 ### TERCERARCHIVO Graficador 
+Se utiliza e importa la biblioteca plotext para generar los gráficos.
+
+- **GraficadorRC**
+Se define la función graficadorRC, la cual se encarga de graficar las tensiones en un circuito RC. Recibe como argumentos la amplitud A y A1, la frecuencia F, el ángulo de fase AG y AG1. 
+
+![Graficador RC](https://github.com/agarnicav/Proyecto_Final/assets/124607325/0b2a37e6-ed15-4bc0-a7ab-ce03a4ca6b0e)
+![Gráfico RC Tensión](https://github.com/agarnicav/Proyecto_Final/assets/124607325/a397c7b0-d582-46b9-b45d-03e60356f2a2)
+
+- **GraficadorRL**
+Se define la función graficadorRL, la cual se encarga de graficar las tensiones en un circuito RL. Recibe como argumentos la amplitud A y A1, la frecuencia F, el ángulo de fase AG y AG1.'''
+![Graficador RL](https://github.com/agarnicav/Proyecto_Final/assets/124607325/6bd39343-aefc-497a-93a7-83e33fdd2f0a)
+
+- **GraficadorRLC**
+Se define la función graficadorRLC, la cual se encarga de graficar las tensiones en un circuito RLC. Recibe como argumentos la amplitud A, A1 y A2, la frecuencia F, el ángulo de fase AG AG1y AG2.
+![Graficador RLC](https://github.com/agarnicav/Proyecto_Final/assets/124607325/0e8e4d26-d959-4868-8edc-edad3050914f)
+
+- **GraficadorI**
+Se define la función graficadorI, se encarga de graficar la corriente en un circuito
+![Graficador I](https://github.com/agarnicav/Proyecto_Final/assets/124607325/0001c000-b47a-452f-bd8f-72d850574fb0)
+
+
 
 ### CUARTO ARCHIVO Solucionador de circuitos 
 
