@@ -1,13 +1,13 @@
 ![Docs Banner Guion de Vídeo en Estilo Negrita Rosa Índigo](https://github.com/agarnicav/Proyecto_Final/assets/124607325/9112d345-580d-45cd-8369-bd385b0b8aeb)
 
 
-## Integrantes
+##                                                                 Integrantes
 - Dilan Mateo Torres Muñoz
 - Lisa Maria Forjan Despaigne
 - Ana Maria Garnica Vargas
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-![Circuitos](https://github.com/agarnicav/Proyecto_Final/assets/124607325/b6632485-482d-4392-bf7a-a5cbaa43b87a)
+![Circuitos](https://github.com/agarnicav/Proyecto_Final/assets/124607325/590e72f9-d6ce-4c36-a48a-d7af833dcc0c)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Un circuito es un conjunto de componentes eléctricos que permite el flujo de corriente eléctrica a través de una trayectoria cerrada. La corriente eléctrica consiste en el movimiento de electrones, por lo tanto, cualquier circuito debe permitir el paso de los electrones a través de los elementos que lo componen.
