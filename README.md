@@ -2,9 +2,9 @@
 
 
 ##                                                                 Integrantes
-- Dilan Mateo Torres Muñoz
-- Lisa Maria Forjan Despaigne
-- Ana Maria Garnica Vargas
+- **Dilan Mateo Torres Muñoz**
+- **Lisa Maria Forjan Despaigne**
+- **Ana Maria Garnica Vargas**
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![Circuitos](https://github.com/agarnicav/Proyecto_Final/assets/124607325/590e72f9-d6ce-4c36-a48a-d7af833dcc0c)
@@ -39,24 +39,28 @@ Los circuitos RC son  circuitos computos por Resistencias (R) y un Capacitos (C)
 **Impedancia**
 Para calcular la impedancia en un circuito RC:
 
-Impedancia del resistor (R): Z_R = R
-Impedancia del capacitor (C): Z_C = 1 / (2 * π * f * C)
-Impedancia total del circuito (Z_eq): Z_eq = sqrt(Z_R^2 + Z_C^2)
-Para calcular la impedancia en un circuito RL:
+    Impedancia del resistor (R): Z_R = R
+    Impedancia del capacitor (C): Z_C = 1 / (2 * π * f * C)
+    Impedancia total del circuito (Z_eq): Z_eq = sqrt(Z_R^2 + Z_C^2)
+    Para calcular la impedancia en un circuito RL:
 
 R es la resistencia en ohmios, C es la capacitancia en microfaradios, L es la inductancia en henrios, f es la frecuencia en hercios, ω es la frecuencia angular en radianes por segundo (ω = 2 * π * f), j es la unidad imaginaria (√(-1)).
 
+**Corriente fasorial:**
 
-**Resistencias total:**
+    I = V / Z
+    Donde V es la amplitud de la tensión y Z es la amplitud de la impedancia.
 
-R_total = R + (1/Cs)
-En un circuito RC en serie, la resistencia total (R_total) es simplemente la suma de la resistencia (R) y la resistencia del capacitor (1/Cs), expresada como la 
+**Tensión en la resistencia:**
 
-**Corriente total:**
+    VR = I * R
+    Donde I es la corriente fasorial y R es la resistencia.
 
-I(t) = (V / R) * (1 - e^(-t/τ))
- Donde V es el voltaje aplicado, R es la resistencia y τ es la constante de tiempo. El tiempo (t) es el tiempo transcurrido desde el inicio de la carga.
- 
+**Tensión en el condensador:** 
+
+    VC = I * Xc
+    Donde I es la corriente fasorial y Xc es la reactancia capacitiva.
+
 
 ## Circuitos RL
 
@@ -71,26 +75,40 @@ En un circuito RL en paralelo, el inductor (L) y la resistencia (R) se conectan 
 
 ### Formulas
 
+**Impedancia (Z):**
 Para calcular la impedancia en un circuito RL:
-- **Impedancia (Z):**
 
-La impedancia combina tanto la resistencia como la reactancia inductiva y representa la oposición total al flujo de corriente en el circuito RL.
+    Impedancia del resistor: 
+    (R): ZR = R
 
-- Impedancia del resistor (R): Z_R = R
-- Impedancia del inductor (L): Z_L = j * ω * L
-- Impedancia total del circuito (Z_eq): Z_eq = sqrt(Z_R^2 + Z_L^2)
+    Impedancia del inductor 
+    (L): XL = ωL
+    Donde XL es la reactancia inductiva, ω es la frecuencia angular del circuito (2πf), L es la inductancia del inductor.
+    Finalmente, la impedancia equivalente (Zeq) para el circuito RL se calcula sumando la impedancia del resistor y la impedancia del inductor:
 
-Z es la impedancia total del circuito., R es la resistencia en ohmios.w L es la reactancia inductiva en ohmios, que se calcula multiplicando la frecuencia angular (ω) por la inductancia (L):
+    Impedancia equivalente (Zeq): Zeq = R + jXL
+    Donde j es la unidad imaginaria (√-1).
 
+    Impedancia total del circuito (Z_eq): Z_eq = sqrt(Z_R^2 + Z_L^2)
 
-- **Corriente total (I_total):**
+    Z es la impedancia total del circuito., R es la resistencia en ohmios.w L es la reactancia inductiva en ohmios, que se calcula multiplicando la frecuencia angular (ω) por la inductancia (L):
 
-I_total = V / Z
+**Corriente fasorial:**
 
-- **Corriente en la resistencia (I_R):**
+    I = V / Z
+    Donde V es la amplitud de la tensión y Z es la amplitud de la impedancia.
+    
+**Tensión en la resistencia:**
 
-I_R = V / R
+    VR = I * R
+    Donde I es la corriente fasorial y R es la resistencia.
+    
+**Tensión en el inductor:** 
 
+    VL = I * Xl
+    Donde I es la corriente fasorial y Xl es la reactancia inductiva.
+
+    
 ## Circuito RLC
 Los circuitos RLC son circuitos eléctricos que contienen una combinación de elementos resistivos (R), inductivos (L) y capacitivos (C). Estos circuitos son de particular interés debido a su comportamiento resonante y su capacidad para filtrar frecuencias específicas. El componente resistivo (R) representa la resistencia eléctrica y se utiliza para limitar el flujo de corriente en el circuito. La resistencia disipa la energía eléctrica en forma de calor. El componente inductivo (L) representa la inductancia y se crea mediante la presencia de una bobina de alambre conductor. La inductancia almacena energía en forma de campo magnético cuando fluye corriente a través de ella. El componente capacitivo (C) representa la capacitancia y se crea mediante la presencia de un capacitor, que consta de dos placas conductoras separadas por un material dieléctrico. El capacitor almacena energía en forma de campo eléctrico cuando se carga.
 
@@ -108,32 +126,45 @@ La impedancia total del circuito RLC en paralelo se calcula sumando las admitanc
 ### Formulas
 
 - **Impedancia** 
-Impedancia total (Z_eq) del circuito RLC en función de R, L y C:
-(Z_eq): Z_eq = sqrt(Z_R^2 + (Z_L - Z_C)^2))
+
+      Impedancia total (Z_eq) del circuito RLC en función de R, L y C:
+      (Z_eq): Z_eq = sqrt(Z_R^2 + (Z_L - Z_C)^2))
 
 Para calcular la impedancia en un circuito RLC:
 
-Impedancia del resistor (R): Z_R = R
-Impedancia del inductor (L): Z_L = j * ω * L
-Impedancia del capacitor (C): Z_C = 1 / (j * ω * C)
+    Impedancia del resistor (R): Z_R = R
+    Impedancia del inductor (L): Z_L = j * ω * L
+    Impedancia del capacitor (C): Z_C = 1 / (j * ω * C)
 
-donde ω es la frecuencia angular en radianes por segundo, ω = 2 * π * f, y f es la frecuencia en hercios.
+    donde ω es la frecuencia angular en radianes por segundo, ω = 2 * π * f, y f es la frecuencia en hercios.
 
-- **Corriente en el circuito (I)**   en función de la tensión de la fuente (V) y la impedancia (Z_eq):
-I = V / Z_eq
 
-- **Tensión en el circuit:**  (V_R, V_L, V_C) en función de la corriente (I) y la impedancia (Z_eq):
+**Corriente fasorial:**
 
-Tensión en el resistor (V_R): V_R = I * R
-Tensión en el inductor (V_L): V_L = I * (ω * L)
-Tensión en el capacitor (V_C): V_C = I * (1 / (ω * C))
-Potencia en el circuito (P) en función de la corriente (I) y la tensión en el resistor (V_R):
-P = V_R * I = (I * R) * I = I^2 * R
+    I = V / Z
+    Donde V es la amplitud de la tensión y Z es la amplitud de la impedancia.
+    
+**Tensión en la resistencia:**
+   
+    VR = I * R
+    Donde I es la corriente fasorial y R es la resistencia.
+    
+**Tensión en el condensador:**
+
+    VC = I * Xc
+    Donde I es la corriente fasorial y Xc es la reactancia capacitiva.
+
+**Tensión en el inductor:**
+
+    VL = I * Xl
+    Donde I es la corriente fasorial y Xl es la reactancia inductiva.
 
 
 
 
 # Procedimiento del Proyecto 
+
+Para el desarrollo del proyecto final se crean 4 archivos correspondientes, encargados de soluccionar y graficar el circuito y opciones elegidas 
 
 1. Se utiliza la biblioteca colorama para imprimir texto en colores en la consola, se crean y presentan tres circuitos de muestra (RC,RL, RLC), para que los usuarios puedan comprender los tipos de circuitos que el programa maneja. Estos circuitos ilustran visualmente la configuración y la conexión de los componentes en cada tipo de circuito.
    
