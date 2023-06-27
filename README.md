@@ -172,41 +172,46 @@ Para calcular la impedancia en un circuito RLC:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Para el desarrollo del proyecto final se crean 4 archivos correspondientes, encargados de soluccionar y graficar el circuito y opciones elegidas 
+Para el desarrollo del proyecto final se crean 4 archivos correspondientes, encargados de solucionar y graficar el circuito y opciones elegidas 
 
-1. Se utiliza la biblioteca colorama para imprimir texto en colores en la consola, se crean y presentan tres circuitos de muestra (RC,RL, RLC), para que los usuarios puedan comprender los tipos de circuitos que el programa maneja. Estos circuitos ilustran visualmente la configuración y la conexión de los componentes en cada tipo de circuito.
-   
-![Circuitos 2](https://github.com/agarnicav/Proyecto_Final/assets/124607325/a52e1091-099e-4eec-9ae3-0c4bb3bf90fc)
-![Circuitos 1](https://github.com/agarnicav/Proyecto_Final/assets/124607325/cedd4dbf-ea00-4460-88e2-9b432d89d9db)
+### PRIMER ARCHIVO Circuitos 
+Se utiliza la biblioteca colorama para imprimir texto en colores en la consola, se crean y presentan tres circuitos de muestra (RC,RL, RLC), para que los usuarios puedan comprender los tipos de circuitos que el programa maneja. Estos circuitos ilustran visualmente la configuración y la conexión de los componentes en cada tipo de circuito.
+
+![Circuitos 1](https://github.com/agarnicav/Proyecto_Final/assets/124607325/62c9e7bc-da98-4874-bb31-0a6ed6fbd0d7)
+![Circuitos 2](https://github.com/agarnicav/Proyecto_Final/assets/124607325/6e13cba0-e8a7-4c25-958f-fcf0c24e2e2d)
 
 
-2. Se definene funciones para poder alamcenar, procesar y hallar los valores del circuito elegido.
+### SEGUNDO ARCHIVO Solucionador de circuitos 
 
-- Función datosDeTension() la cual solicita al usuario los datos de voltaje de la fuente de corriente alterna (AC) y devuelve un diccionario con esos datos.
-  ![Datostension](https://github.com/agarnicav/Proyecto_Final/assets/124607325/db72c783-5017-4efc-874d-01039c566b6f)
+1. Se definene funciones para poder alamcenar, procesar y hallar los valores del circuito elegido.
 
-- Función datosDeResistencia() que solicita al usuario la resistencia en ohmios y devuelve un diccionario con ese dato.
-![Datosresistencias](https://github.com/agarnicav/Proyecto_Final/assets/124607325/8ed72228-8caa-4e05-905c-b6bf01fdb793)
+- Función datosDeTension() Se define la función para solicitar los datos de la Tension y almacenarlos por medio de un  diccionario 
+![Datostension](https://github.com/agarnicav/Proyecto_Final/assets/124607325/a9ecb140-6cdd-48ef-9926-0181a67babaa)
 
-- Función datosDeCondensador() que solicita al usuario la capacitancia en microfaradios y devuelve un diccionario con ese dato.
-![DatosCondensador](https://github.com/agarnicav/Proyecto_Final/assets/124607325/8a22db63-7b80-4edd-a1b1-f0a6037c0881)
+- Función datosDeResistencia() Se define la función que solicita los datos de la resistencia en ohmios y devuelve un diccionario con este dato
+![Datosresistencias](https://github.com/agarnicav/Proyecto_Final/assets/124607325/fad0b6e1-c9c1-414b-8902-374d3e6eb48b)
 
-- Función datosDeInductor() que solicita al usuario la inductancia en henrios y devuelve un diccionario con ese dato.
-![Datos inductor](https://github.com/agarnicav/Proyecto_Final/assets/124607325/aa91550f-6b6e-4615-bf7a-464e23306698)
+- Función datosDeCondensador()  Se define la función que solicita los datos de la capacitancia en microfaradios y devuelve un diccionario con ese dato.
+![DatosCondensador](https://github.com/agarnicav/Proyecto_Final/assets/124607325/dc90a607-011b-4e43-b297-549c5b2e7981)
 
-- Función convertirFasores() que toma un diccionario de datos del circuito y convierte los valores de voltaje, resistencia, capacitancia e inductancia en fasores (representación compleja). Devuelve un diccionario con los fasores correspondientes.
-![Convertir fasores](https://github.com/agarnicav/Proyecto_Final/assets/124607325/b70c2928-9e8c-42c1-8363-f9723f5a1f3c)
+- Función datosDeInductor() Se define la función que solicita los datos de la inductancia en henrios y devuelve un diccionario con ese dato.
+![Datos inductor](https://github.com/agarnicav/Proyecto_Final/assets/124607325/6c8325f5-a8bc-476c-a49b-987aeef4b1f6)
 
-- Función impedanciaEquivalente() que toma los fasores y una bandera como entrada y calcula la impedancia equivalente del circuito. Dependiendo del valor de la bandera, realiza diferentes cálculos y devuelve una lista con la magnitud y el ángulo de la impedancia equivalente.
-![Impedanciaequivalente](https://github.com/agarnicav/Proyecto_Final/assets/124607325/5d5e3b07-11c7-415a-9788-1864ed58d860)
 
-- Función leyDeOhm() que toma la impedancia, los fasores y una bandera como entrada. Utiliza la ley de Ohm para calcular la corriente y las tensiones en el circuito. Devuelve un diccionario con los resultados.
+- Función convertirFasores() Se define la función que toma un diccionario de datos del circuito y convierte los valores de voltaje, resistencia, capacitancia e inductancia en fasores. Devuelve un diccionario con los fasores correspondientes.
+![Convertir fasores](https://github.com/agarnicav/Proyecto_Final/assets/124607325/d168686d-fc8c-4405-9406-0d5b4f32b2ef)
+
+
+- Función impedanciaEquivalente() Se define la función que toma los fasores y una bandera como entrada y calcula la impedancia equivalente del circuito. Dependiendo del valor de la bandera, realiza diferentes cálculos y devuelve una lista con la magnitud y el ángulo de la impedancia equivalente.
+![Impedanciaequivalente](https://github.com/agarnicav/Proyecto_Final/assets/124607325/9993ad90-5e3c-4ab5-bf25-00ae880adada)
+
+- Función leyDeOhm() Se define la función que toma la impedancia, los fasores y una bandera como entrada. Utiliza la ley de Ohm para calcular la corriente y las tensiones en el circuito. Se devuelven 4 diccionarios que contienen la magnitud y el ángulo de la corriente fasorial, la tensión en la resistencia, la tensión en el condensador (si está presente) y la tensión en el inductor (si está presente).
 ![Ley de ohm](https://github.com/agarnicav/Proyecto_Final/assets/124607325/3dcacc2d-ab20-4062-a180-06ab1c231b0e)
 
 
-3. En el bloque if __name__ == "__main__":, se ejecuta el código. El programa utiliza un bucle while para permitir al usuario seleccionar la opción del circuito que desea resolver.
+3. En el bloque if __name__ == "__main__":, se ejecuta el código. El programa utiliza un bucle while para mostrar el menú y permitir al usuario seleccionar la opción del circuito que desea resolver. Si la opción ingresada no corresponde a las que se muestran el buvle se repite hasta que la opción y bandera sea verdadera.
    
-![Bloque1](https://github.com/agarnicav/Proyecto_Final/assets/124607325/804010f7-1fc7-4a2b-a62d-c0ebd8b7679c)
+![BLOQUE IF](https://github.com/agarnicav/Proyecto_Final/assets/124607325/43cc406b-82e8-47db-8442-be0c854e8f55)
 
 4. Dependiendo de la opción seleccionada, se llaman a las funciones correspondientes para recopilar los datos del circuito, convertirlos en fasores, calcular la impedancia equivalente y aplicar la ley de Ohm para obtener la corriente y las tensiones en el circuito.
  
