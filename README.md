@@ -1,4 +1,4 @@
-![Docs Banner Guion de Vídeo en Estilo Negrita Rosa Índigo](https://github.com/agarnicav/Proyecto_Final/assets/124607325/9112d345-580d-45cd-8369-bd385b0b8aeb)
+![cPRUECTO](https://github.com/agarnicav/Proyecto_Final/assets/124607325/267f2848-0435-4d36-8d88-ebade2782990)
 
 
 ##                                                                 Integrantes
@@ -7,7 +7,8 @@
 - **Ana Maria Garnica Vargas**
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-![cPRUECTO](https://github.com/agarnicav/Proyecto_Final/assets/124607325/6e15e93f-e724-4926-91cd-d3152271f2bc)
+![Circuitos](https://github.com/agarnicav/Proyecto_Final/assets/124607325/bf8f8ae9-6e39-4976-a351-a7822f800af2)
+
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
