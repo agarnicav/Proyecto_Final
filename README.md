@@ -179,7 +179,7 @@ Se utiliza la biblioteca colorama para imprimir texto en colores en la consola, 
 ![Circuitos 2](https://github.com/agarnicav/Proyecto_Final/assets/124607325/6e13cba0-e8a7-4c25-958f-fcf0c24e2e2d)
 
 
-### SEGUNDO ARCHIVO circuitos soluncionados 
+### SEGUNDO ARCHIVO circuitos solucionados 
 Se crean y representan los diagramas de los circuitos RC,RL,RCL, se toman como argumentos los valores correspondientes al circuito, como el voltaje (V), voltaje en la resistencia (VR), voltaje en el inductor (VL) y  voltaje en el capacitor (VC),  y la corriente (I), resistencia (R), capacitancia (C), inductancia (L)
 ![circuitos solucionados 1](https://github.com/agarnicav/Proyecto_Final/assets/124607325/7fbbcdfe-56fe-4c2a-a9d1-a7e5f2d11515)
 ![circuitos solucionados 2](https://github.com/agarnicav/Proyecto_Final/assets/124607325/fea53e19-9537-46c9-a1d3-b5cedd3d50db)
