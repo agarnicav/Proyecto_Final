@@ -211,6 +211,7 @@ Se define la función graficadorI, se encarga de graficar la corriente en un cir
 
 
 ### CUARTO ARCHIVO Solucionador de circuitos 
+Archivo principal el cual ejecuta y utiliza los tres archivos planteados anteriormente.
 
 1. Se definene funciones para poder alamcenar, procesar y hallar los valores del circuito elegido.
 
