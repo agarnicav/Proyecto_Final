@@ -11,7 +11,12 @@
 - Dilan Mateo Torres Muñoz
 - Lisa Maria Forjan Despaigne
 - Ana Maria Garnica Vargas
-![Circuitos](https://github.com/agarnicav/Proyecto_Final/assets/124607325/ecf07575-c6d0-49f6-8582-2b9b2df19cf7)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+![Circuitos](https://github.com/agarnicav/Proyecto_Final/assets/124607325/b6632485-482d-4392-bf7a-a5cbaa43b87a)
+
 
 Un circuito es un conjunto de componentes eléctricos que permite el flujo de corriente eléctrica a través de una trayectoria cerrada. La corriente eléctrica consiste en el movimiento de electrones, por lo tanto, cualquier circuito debe permitir el paso de los electrones a través de los elementos que lo componen.
 
