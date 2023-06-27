@@ -164,7 +164,10 @@ Para calcular la impedancia en un circuito RLC:
 
 
 
-# Procedimiento del Proyecto 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+![Procedimiento proyecto](https://github.com/agarnicav/Proyecto_Final/assets/124607325/ba1a4634-4d3a-4c2e-898b-2d928ece2cec)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Para el desarrollo del proyecto final se crean 4 archivos correspondientes, encargados de soluccionar y graficar el circuito y opciones elegidas 
 
