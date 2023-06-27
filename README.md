@@ -181,7 +181,15 @@ Se utiliza la biblioteca colorama para imprimir texto en colores en la consola, 
 ![Circuitos 2](https://github.com/agarnicav/Proyecto_Final/assets/124607325/6e13cba0-e8a7-4c25-958f-fcf0c24e2e2d)
 
 
-### SEGUNDO ARCHIVO Solucionador de circuitos 
+### SEGUNDO ARCHIVO circuitos soluncionados 
+Se crean y representan los diagramas de los circuitos RC,RL,RCL, se toman como argumentos los valores correspondientes al circuito, como el voltaje (V), voltaje en la resistencia (VR), voltaje en el inductor (VL) y  voltaje en el capacitor (VC),  y la corriente (I), resistencia (R), capacitancia (C), inductancia (L)
+![circuitos solucionados 1](https://github.com/agarnicav/Proyecto_Final/assets/124607325/7fbbcdfe-56fe-4c2a-a9d1-a7e5f2d11515)
+![circuitos solucionados 2](https://github.com/agarnicav/Proyecto_Final/assets/124607325/fea53e19-9537-46c9-a1d3-b5cedd3d50db)
+![circuitos solucionados 3](https://github.com/agarnicav/Proyecto_Final/assets/124607325/9e21a428-d1ff-4ba9-b5d7-9afbb4d42c77)
+
+### TERCERARCHIVO Graficador 
+
+### CUARTO ARCHIVO Solucionador de circuitos 
 
 1. Se definene funciones para poder alamcenar, procesar y hallar los valores del circuito elegido.
 
@@ -215,23 +223,20 @@ Se utiliza la biblioteca colorama para imprimir texto en colores en la consola, 
 
 4. Dependiendo de la opción seleccionada, se llaman a las funciones correspondientes para recopilar los datos del circuito, convertirlos en fasores, calcular la impedancia equivalente y aplicar la ley de Ohm para obtener la corriente y las tensiones en el circuito.
  
-![Bloque2](https://github.com/agarnicav/Proyecto_Final/assets/124607325/d3131c47-f509-4932-bb48-4ff034dbd811)
-
-
+![March opcion case 1](https://github.com/agarnicav/Proyecto_Final/assets/124607325/64d314bb-b362-4460-9762-79e1c302f7a5)
  
- **Caso 1:** se muestra el circuito RC y se solicitan los datos de voltaje (V1), resistencia (R1) y condensador (C1) al usuario, en un diccionario llamado datosCircuito  se alamcenan los datos y se realizan cálculos de fasores, impedancia y aplicando la ley de Ohm para obtener las corrientes y tensiones en el circuito. Finalmente, se imprimen los resultados.
+ **Caso 1:** Se imprime el ejemplo de circuiro RC  y se solicitan los datos de tensión, resistencia y capacitancia utilizando las funciones datosDeTension(), datosDeResistencia() y datosDeCondensador(), respectivamente. Luego, se combinan estos datos en un diccionario datosCircuito, se convierten a fasores, se calcula la impedancia equivalente, se aplican las leyes de Ohm y se generan las expresiones para las corrientes y tensiones del circuito. Posteriormente se muestra otro submenú al usuario para que elija qué desea imprimir el circuito RC solucionado o las graficas de corriente y tensión . Dependiendo de la opción seleccionada, se ejecuta el código correspondiente.
 
-**Caso 2:** se realiza el procedimiento para el circuito RL. Se muestra el circuito RL, se solicitan los datos de voltaje (V1), resistencia (R1) e inductor (L1) y se realizan los cálculos correspondientes para obtener las corrientes y tensiones en el circuito.
+![Case2](https://github.com/agarnicav/Proyecto_Final/assets/124607325/eb022311-3c7e-4671-b4fe-1cd05bf8ee41)
 
-
-
-
-![Bloque 3](https://github.com/agarnicav/Proyecto_Final/assets/124607325/e61d98fd-42e0-4625-ba33-c15c4e3619db)
-
-**Caso 3:**  se realiza un procedimiento para el circuito RLC. Se muestra el circuito RLC, se solicitan los datos de voltaje (V1), resistencia (R1), inductor (L1) y condensador (C1). Luego, se realizan los cálculos correspondientes para obtener las corrientes y tensiones en el circuito.
-
-**Caso 4:**  se muestra un mensaje de agradecimiento y el programa finaliza.
+**Caso 2:**  Se imprime el ejemplo de circuiro RL y se solicitan los datos de tensión, resistencia e inductancia utilizando las funciones datosDeTension(), datosDeResistencia() y datosDeInductor(), respectivamente. Luego, se combinan estos datos en un diccionario datosCircuito, se convierten a fasores, se calcula la impedancia equivalente, se aplican las leyes de Ohm y se generan las expresiones para las corrientes y tensiones del circuito. Posteriormente se muestra otro submenú al usuario para que elija qué desea imprimir el circuito RL solucionado o las graficas de corriente y tensión . Dependiendo de la opción seleccionada, se ejecuta el código correspondiente.
 
 
+![Case 3 y ](https://github.com/agarnicav/Proyecto_Final/assets/124607325/ffc90347-115b-45a5-82eb-6e268ab096a8)
 
-5. Finalmente, se imprimen los resultados en formato de cadena.
+
+**Caso 3:**   Se imprime el ejemplo de circuiro RLC  y se solicitan los datos de voltaje (V1), resistencia (R1), inductor (L1) y condensador (C1). utilizando las funciones datosDeTension(), datosDeResistencia(), datosDeCondensador() y datosDeInductor(), respectivamente. Luego, se combinan estos datos en un diccionario datosCircuito, se convierten a fasores, se calcula la impedancia equivalente, se aplican las leyes de Ohm y se generan las expresiones para las corrientes y tensiones del circuito. Posteriormente se muestra otro submenú al usuario para que elija qué desea imprimir el circuito RLC solucionado o las graficas de corriente y tensión . Dependiendo de la opción seleccionada, se ejecuta el código correspondiente.
+
+**Caso 4:**  Se muestra un mensaje de agradecimiento y el programa finaliza.
+
+
