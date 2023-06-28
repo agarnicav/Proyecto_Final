@@ -1,4 +1,4 @@
-![Docs Banner Guion de Vídeo en Estilo Negrita Rosa Índigo](https://github.com/agarnicav/Proyecto_Final/assets/124607325/50498d45-62d7-4629-ba8d-76abed614887)
+![Docs Banner Guion de Vídeo en Estilo Negrita Rosa Índigo](https://github.com/agarnicav/Proyecto_Final/assets/124607325/7b692293-f1c8-40f6-a4c5-2a2b2bab7917)
 
 ##                                                                 Integrantes
 - **Dilan Mateo Torres Muñoz**
