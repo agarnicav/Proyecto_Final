@@ -17,8 +17,8 @@ def graficadorRC(A,A1,F,AG,AG1):
     
     ''' Se inicia un bucle que itera a través de los fotogramas, cada iteración del bucle representa un fotograma de la animación.'''
     for i in range(frames): 
-        plotext.clt() # Borra 
-        plotext.cld()  # Borra
+        plotext.clt() # Borra el contenido de la terminal, eliminando cualquier texto o gráfico previamente mostrado 
+        plotext.cld()  # Borra la información de datos relativa a la subgráfica activa
 
         ''' y Calcula los valores de la función seno con una amplitud A, un número de periodos F, una longitud l y un desplazamiento de fase (2 * i / frames)-math.radians(AG). 
         Estos valores representan la forma de onda de la tensión VR(t) en el circuito RC. '''
