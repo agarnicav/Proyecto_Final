@@ -260,3 +260,41 @@ Archivo principal el cual ejecuta y utiliza los tres archivos planteados anterio
 **Caso 4:**  Se muestra un mensaje de agradecimiento y el programa finaliza.
 
 
+### Instalación del Entornos virtuales 
+
+- Para poder usar el programa es necesario instalar dos paquetes `colorama` y `plotext` se pueden descasgar usando pip `pip`. para esto hay que seguir los guienes pasos :
+
+1. Asegurarse de tener el entorno virtual activado.
+
+2. Ejecutar el siguiente comando en el terminal para instalar el paquete `colorama`:
+
+       pip install colorama==0.4.6
+   
+
+   Esto descargará e instalará la versión específica 0.4.6 de `colorama` en tu entorno virtual.
+
+3. Y ejecutar el siguiente comando para instalar el paquete `plotext`:
+
+       pip install plotext==4.2.0
+
+
+   Esto descargará e instalará la versión específica 4.2.0 de `plotext` en tu entorno virtual.
+
+Una vez instalados se podrá utilizar sus funcionalidades.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
