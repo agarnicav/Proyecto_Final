@@ -8,46 +8,46 @@ import math
 init() # Inicialización del módulo colorama
 
 
-''' Se define la función para solicitar los datos de la Tension '''
+''' Se define la función para solicitar los datos de la Tensión '''
 
 def datosDeTension() -> dict:  
-    datosVoltajeAC = {}   # Se define el diccionario datosVoltajeAC  que alamcena los datos Tension,Frecuencia y Angulo
-    print(Fore.YELLOW+'INGRESE LOS DATOS DE LA FUENTE "V1"'+Fore.RESET) # Se imprime el mensaje que le pide al usuario ingresar el valor que tendra la fuente V1
+    datosVoltajeAC = {}   # Se define el diccionario datosVoltajeAC  que alamacena los datos Tensión,Frecuencia y Ángulo
+    print(Fore.YELLOW+'INGRESE LOS DATOS DE LA FUENTE "V1"'+Fore.RESET) # Se imprime el mensaje que le pide al usuario ingresar el valor que tendrá la fuente V1
     datos = {"Tensión":["la","Voltios"],"Frecuencia":["la","Herzios"],"Angulo":["el","grados"]} 
-    '''Se define otro diccionario llamado datos que contiene la información para solicitar los datos al usuario. Cada clave del diccionario representa un tipo de dato (Tensión, Frecuencia, Angulo), y los valores asociados son listas con información adicional sobre cómo solicitar los datos al usuario.'''
+    '''Se define otro diccionario llamado datos que contiene la información para solicitar los datos al usuario. Cada clave del diccionario representa un tipo de dato (Tensión, Frecuencia, Ángulo), y los valores asociados son listas con información adicional sobre cómo solicitar los datos al usuario.'''
     
-    ''' Se inicia un bucle for que recorre las claves del diccionario datos. en el cual en cada iterración se pude al usuario ingresar los valores corresponedientes al tipo de dato '''
+    ''' Se inicia un bucle for que recorre las claves del diccionario datos en el cual en cada iteración se pide al usuario ingresar los valores corresponedientes al tipo de dato '''
     for i in datos:   
         datosVoltajeAC[i] =  float(input('Ingrese {} {} en {}: '.format(datos[i][0], i, datos[i][1])))  # El valor ingresado se asigna al diccionario utilizando la clave correspondiente.
     print("")
-    return datosVoltajeAC   # Se retorna el diccionario datosVoltacAC  que contendra los datos ingresados
+    return datosVoltajeAC   # Se retorna el diccionario datosVoltacAC  que contendrá los datos ingresados
 
 
-'''Se define la funcion para solicitar los datos de la resistencia  '''
+'''Se define la función para solicitar los datos de la resistencia  '''
 def datosDeResistencia() -> dict:  
-    datosResistencia = {}  # Se crea un diccionario vacio el cual alamacena el valor de la resistencia
+    datosResistencia = {}  # Se crea un diccionario vacío el cual alamacena el valor de la resistencia
     print(Fore.RED+'INGRESE LOS DATOS DE LA RESISTENCIA "R1"'+Fore.RESET)   # Se imprime un mensaje que indica ingresar los datos del resistencia "R1".
     datosResistencia["Resistencia"] = float(input("Ingrese la resistividad en Ohmios: "))   # El valor asignado a la resistencia  en Ohmios se asigna al diccionario datosResistencia con la clave "Resistencia".
     print("")
-    return datosResistencia  # Se retorna el diccionario que contendra el valor de la resistencia 
+    return datosResistencia  # Se retorna el diccionario que contendrá el valor de la resistencia 
 
 
-'''Se define la funcion para solicitar los datos de condensador   '''
+'''Se define la función para solicitar los datos de condensador   '''
 def datosDeCondensador() -> dict:
-    datosCondensador = {}  # Se crea un diccionario vacio el cual alamacena los datos del condensador 
+    datosCondensador = {}  # Se crea un diccionario vacío el cual alamacena los datos del condensador 
     print(Fore.GREEN+'INGRESE LOS DATOS DEL CONDENSADOR "C1"'+Fore.RESET)  # Se imprime un mensaje que indica ingresar los datos del condensador "C1".
     datosCondensador["Capacitancia"] = float(input("Ingrese la capacitancia en Micro Faradios: ")) #  El valor ingresado en Micro Faradios  se asigna al diccionario datosCondensador con la clave "Capacitancia".
     print("")
-    return datosCondensador # Se retorna el diccionario que contrandra los datos del condensador 
+    return datosCondensador # Se retorna el diccionario que contendrá los datos del condensador 
 
 
-''' Se define la funciónn para solicitar los datos del inductor  '''
+''' Se define la función para solicitar los datos del inductor  '''
 def datosDeInductor() -> dict: 
-    datosInductor = {} # Se crea un diccionario el cual alamacenara los datos del inductor
+    datosInductor = {} # Se crea un diccionario el cual almacenara los datos del inductor
     print(Fore.BLUE+'INGRESE LOS DATOS DEL INDUCTOR "L1"'+Fore.RESET)  # Se imprime un mensaje que indica ingresar los datos del inductor "L1".
     datosInductor["Inductancia"] = float(input("Ingrese la inductancia en Henrios: ")) # El valor ingresado en hernios  se asigna al diccionario datosInductor con la clave "Inductancia".
     print("")
-    return datosInductor # Se retorna el diccionario que contendra los datos del inductor
+    return datosInductor # Se retorna el diccionario que contendrá los datos del inductor
 
 
 
